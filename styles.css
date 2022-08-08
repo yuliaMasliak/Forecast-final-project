@@ -13,7 +13,7 @@
   padding-left: 15px;
 }
 .logo {
-  width: 250px;
+  width: 210px;
   padding: 10px 0px 30px 15px;
 }
 .forecast {
@@ -56,9 +56,7 @@
   font-weight: 700;
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
-#description {
-  text-transform: capitalize;
-}
+
 .units {
   position: relative;
   font-size: 22px;
@@ -74,9 +72,14 @@ ul {
   font-size: 16px;
   color: #5cc1b3;
 }
+li::first-letter {
+  text-transform: capitalize;
+}
 #humidity,
-#wind {
-  color: red;
+#wind,
+#percent,
+#km {
+  color: #f65282;
 }
 #main-icon {
   width: 120px;
