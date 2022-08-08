@@ -1,0 +1,91 @@
+.project {
+  display: block;
+  max-width: 780px;
+  margin: 60px auto;
+
+  border-radius: 13px;
+  background-color: #ffffff;
+}
+.container {
+  display: block;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.logo {
+  width: 250px;
+  padding: 10px 0px 30px 15px;
+}
+.forecast {
+  display: block;
+  margin: 0px 15px;
+  padding: 15px 15px 15px 15px;
+}
+
+#search-input {
+  display: block;
+  padding: 15px 15px 15px 15px;
+  background-color: #e7faf9;
+  border: none;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+#search-btn {
+  display: block;
+  padding: 11px 15px 11px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #385170;
+  border-color: #385170;
+}
+#city-row {
+  margin-top: 20px;
+}
+#chosen-city {
+  display: block;
+  padding: 45px 0px 20px 20px;
+}
+.big-font {
+  font-size: 38px;
+  color: #142d4c;
+  font-weight: 700;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+.biggest-font {
+  font-size: 60px;
+  color: #142d4c;
+  font-weight: 700;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+#description {
+  text-transform: capitalize;
+}
+.units {
+  position: relative;
+  font-size: 22px;
+  color: #142d4c;
+  font-weight: 300;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  top: -34px;
+}
+ul {
+  list-style: none;
+  margin-left: -30px;
+  font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #5cc1b3;
+}
+#humidity,
+#wind {
+  color: red;
+}
+#main-icon {
+  width: 120px;
+  padding-bottom: 60px;
+}
+#main-temperature {
+  text-align: center;
+  padding-top: 30px;
+}
+.farenheit {
+  text-decoration: none;
+}
