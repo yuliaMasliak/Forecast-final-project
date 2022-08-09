@@ -76,6 +76,31 @@ function displayCelsius(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast-multi");
+  let days = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon"];
+  let forecastHTML = `<div class="row" id="forecast-row-multi">`;
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="col-2">
+                <div class="day-multi">${day}</div>
+                <div>
+                  <img
+                    src="http://openweathermap.org/img/wn/01d@2x.png"
+                    alt="icon-multi"
+                    width="50"
+                  />
+                </div>
+                <div class="temp-multi">
+                  12° <span class="temp-multi-min"> 8°</span>
+                </div>
+              </div>`;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 let celsiusTemperature = null;
 
 let form = document.querySelector("#entercity");
@@ -88,3 +113,4 @@ let celsiusUnit = document.querySelector("#celsius-unit");
 celsiusUnit.addEventListener("click", displayCelsius);
 
 search(`London`);
+displayForecast();

@@ -111,3 +111,22 @@ li::first-letter {
 .source-link {
   text-decoration: none;
 }
+#forecast-row-multi {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+.day-multi {
+  font-size: 24px;
+  color: #a7bcb9;
+}
+.temp-multi {
+  color: #535e6d;
+  font-size: 18px;
+}
+.temp-multi-min {
+  font-size: 17px;
+  color: #142d4c;
+  opacity: 0.5;
+}
