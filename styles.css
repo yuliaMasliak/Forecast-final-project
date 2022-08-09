@@ -60,7 +60,7 @@
 .units {
   position: relative;
   font-size: 22px;
-  color: #142d4c;
+  color: #000000;
   font-weight: 300;
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
   top: -34px;
@@ -89,6 +89,14 @@ li::first-letter {
   text-align: center;
   padding-top: 30px;
 }
-.farenheit {
+.active {
+  cursor: default;
+  color: #142d4c;
+  text-decoration: none;
+}
+#celsius-unit {
+  text-decoration: none;
+}
+#farenheit-unit {
   text-decoration: none;
 }
