@@ -24,7 +24,6 @@ function formatDate(timestamp) {
 }
 
 function displayTemperature(response) {
-  console.log(response.data);
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
 
@@ -38,9 +37,15 @@ function displayTemperature(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   let dateElement = document.querySelector("#current-day");
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  let mainIcon = document.querySelector("#main-icon");
+  mainIcon.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  mainIcon.setAttribute("alt", response.data.weather[0].description);
 }
 let apiKey = "a2862d894f40dfa965c78c830dcfe9c5";
-let cityName = "Paris";
+let cityName = "Kyiv";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
