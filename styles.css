@@ -100,3 +100,17 @@ li::first-letter {
 #fahrenheit-unit {
   text-decoration: none;
 }
+#author {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #bdc9c6;
+  display: block;
+  text-align: center;
+}
+.source-link {
+  text-decoration: none;
+}
+#masliak {
+  color: rgb(45, 136, 189);
+}
