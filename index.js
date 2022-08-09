@@ -64,8 +64,8 @@ function displayFahrenheit(event) {
   celsiusUnit.classList.remove("active");
   let temperatureElement = document.querySelector("#temperature");
 
-  farenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(farenheitTemperature);
+  fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
 function displayCelsius(event) {
@@ -81,7 +81,7 @@ let celsiusTemperature = null;
 let form = document.querySelector("#entercity");
 form.addEventListener("submit", handleSubmit);
 
-let fahrenheitUnit = document.querySelector("#farenheit-unit");
+let fahrenheitUnit = document.querySelector("#fahrenheit-unit");
 fahrenheitUnit.addEventListener("click", displayFahrenheit);
 
 let celsiusUnit = document.querySelector("#celsius-unit");
