@@ -26,7 +26,7 @@
   display: block;
   padding: 15px 15px 15px 15px;
   background-color: #e7faf9;
-  color: #535e6d;
+  color: #828a96;
   border: none;
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
@@ -105,9 +105,14 @@ li::first-letter {
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #bdc9c6;
+  color: #a0aaa8;
   display: block;
-  text-align: center;
+
+  position: relative;
+  top: -30px;
+
+  max-width: 780px;
+  margin: 40px auto;
 }
 .source-link {
   text-decoration: none;
