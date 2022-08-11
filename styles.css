@@ -1,7 +1,7 @@
 .project {
   display: block;
   max-width: 780px;
-  margin: 60px auto;
+  margin: 40px auto;
 
   border-radius: 13px;
   background-color: #ffffff;
@@ -26,6 +26,7 @@
   display: block;
   padding: 15px 15px 15px 15px;
   background-color: #e7faf9;
+  color: #535e6d;
   border: none;
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
@@ -42,7 +43,7 @@
 }
 #chosen-city {
   display: block;
-  padding: 45px 0px 20px 20px;
+  padding: 45px 0px 0px 20px;
 }
 .big-font {
   font-size: 38px;
@@ -114,7 +115,7 @@ li::first-letter {
 #forecast-row-multi {
   text-align: center;
   margin-bottom: 30px;
-  margin-top: 20px;
+
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 }
 .day-multi {
