@@ -13,8 +13,9 @@
   padding-left: 15px;
 }
 .logo {
-  width: 210px;
-  padding: 10px 0px 30px 15px;
+  width: 170px;
+  display: block;
+  margin: 15px 15px 25px 25px;
 }
 .forecast {
   display: block;
@@ -39,7 +40,7 @@
   border-color: #385170;
 }
 #city-row {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #chosen-city {
   display: block;
@@ -119,7 +120,7 @@ li::first-letter {
 }
 #forecast-row-multi {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 }
